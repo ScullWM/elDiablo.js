@@ -9,6 +9,14 @@ var elDiablo = {
         'https://www.facebook.com/search/top/?init=quick&q={keyword}',
         'http://search.rueducommerce.fr/search?s={keyword}',
         'http://www.darty.com/nav/recherche?srctype=list&text={keyword}',
+        'http://lemoteur.orange.fr/?kw={keyword}&bhv=web_fr&module=orange&target=orange',
+        'http://search.free.fr/google.pl?qs={keyword}&x=0&y=0',
+        'http://www.commentcamarche.net/s/{keyword}',
+        'http://www.clubic.com/r/{keyword}/',
+        'http://www.journaldunet.com/recherche/?f_libelle={keyword}',
+        'http://www.programme-tv.net/rechercher?q={keyword}',
+        'http://www.lemonde.fr/recherche/?keywords={keyword}&qt=recherche_globale',
+        'http://www.topito.com/recherche?q={keyword}'
     ],
 
     keyword: [
