@@ -26,8 +26,13 @@ var elDiablo = {
     createRequest: function(url, keyword) {
         randomUrl = elDiablo.randomValue(elDiablo.url);
         randomKeyword = elDiablo.randomValue(elDiablo.keyword);
-
         url = randomUrl.replace('{keyword}', randomKeyword);
+
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", url);
+        ifrm.style.width = "0px";
+        ifrm.style.height = "0px";
+        document.body.appendChild(ifrm);
 
         var request = new XMLHttpRequest();
         request.open('GET', url, true);
